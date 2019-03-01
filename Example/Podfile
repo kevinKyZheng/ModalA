@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ModalA_Example' do
+  pod 'ModalA', :path => '../'
+
+  target 'ModalA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
